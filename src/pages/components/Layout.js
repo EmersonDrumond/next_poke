@@ -11,7 +11,7 @@ export default function Layout({children}) {
             <link rel="shortcut icon" href="/img/favicon.ico"/>
             <title>Pokenext</title>
             <Navbar/>
-            <main className="h-[88vh]">{children}</main>
+            <main>{children}</main>
             <Footer/>
         </Head>
         </>
